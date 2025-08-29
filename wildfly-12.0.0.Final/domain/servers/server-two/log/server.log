@@ -1,0 +1,354 @@
+2025-04-02 12:00:13,413 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2025-04-02 12:00:14,682 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2025-04-02 12:00:33,294 INFO  [stdout] (AD Agent init) Started AppDynamics Java Agent Successfully.
+2025-04-02 12:01:02,049 INFO  [stdout] (Thread-1) Shutting down AppDynamics Agent
+2025-04-02 12:02:03,962 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2025-04-02 12:02:06,395 INFO  [stdout] (AD Agent init) Agent runtime conf directory set to /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/ver22.10.0.34344/conf
+2025-04-02 12:02:06,441 INFO  [stdout] (AD Agent init) Agent logging directory set to [/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/ver22.10.0.34344/logs]
+2025-04-02 12:02:06,500 INFO  [stdout] (AD Agent init) 
+2025-04-02 12:02:06,500 INFO  [stdout] (AD Agent init) Could not start Java Agent, disabling the agent with exception javax.xml.parsers.FactoryConfigurationError: Provider __redirected.__DocumentBuilderFactory not found, Please check log files
+2025-04-02 12:02:06,501 INFO  [stdout] (AD Agent init) 
+2025-04-02 12:02:06,501 INFO  [stdout] (AD Agent init) javax.xml.parsers.FactoryConfigurationError: Provider __redirected.__DocumentBuilderFactory not found
+2025-04-02 12:02:06,501 INFO  [stdout] (AD Agent init) 	at javax.xml.parsers.DocumentBuilderFactory.newInstance(Unknown Source)
+2025-04-02 12:02:06,502 INFO  [stdout] (AD Agent init) 	at org.apache.logging.log4j.core.config.xml.XmlConfiguration.newDocumentBuilder(XmlConfiguration.java:183)
+2025-04-02 12:02:06,503 INFO  [stdout] (AD Agent init) 	at org.apache.logging.log4j.core.config.xml.XmlConfiguration.<init>(XmlConfiguration.java:89)
+2025-04-02 12:02:06,503 INFO  [stdout] (AD Agent init) 	at com.singularity.ee.agent.util.log4j.ADConfigurationFactory.getConfiguration(ADConfigurationFactory.java:85)
+2025-04-02 12:02:06,503 INFO  [stdout] (AD Agent init) 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:695)
+2025-04-02 12:02:06,504 INFO  [stdout] (AD Agent init) 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:716)
+2025-04-02 12:02:06,505 INFO  [stdout] (AD Agent init) 	at com.singularity.ee.agent.appagent.kernel.Log4J2SetupHelper.setup(Log4J2SetupHelper.java:77)
+2025-04-02 12:02:06,505 INFO  [stdout] (AD Agent init) 	at com.singularity.ee.agent.appagent.kernel.JavaAgent.setupLoggingLog4j2(JavaAgent.java:1017)
+2025-04-02 12:02:06,506 INFO  [stdout] (AD Agent init) 	at com.singularity.ee.agent.appagent.kernel.JavaAgent.setupLogging(JavaAgent.java:977)
+2025-04-02 12:02:06,506 INFO  [stdout] (AD Agent init) 	at com.singularity.ee.agent.appagent.kernel.JavaAgent.initialize(JavaAgent.java:466)
+2025-04-02 12:02:06,506 INFO  [stdout] (AD Agent init) 	at com.singularity.ee.agent.appagent.kernel.JavaAgent.initialize(JavaAgent.java:355)
+2025-04-02 12:02:06,506 INFO  [stdout] (AD Agent init) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2025-04-02 12:02:06,507 INFO  [stdout] (AD Agent init) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2025-04-02 12:02:06,507 INFO  [stdout] (AD Agent init) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2025-04-02 12:02:06,507 INFO  [stdout] (AD Agent init) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2025-04-02 12:02:06,507 INFO  [stdout] (AD Agent init) 	at com.singularity.ee.agent.appagent.AgentEntryPoint$1.run(AgentEntryPoint.java:658)
+2025-04-02 12:02:06,803 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2025-04-02 12:02:06,819 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2025-04-02 12:02:07,261 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2025-04-02 12:02:07,267 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Server:server-two] = 
+	[pcid:597524740] = 
+	appagent.start.timeout = 1
+	appdynamics.agent.accountAccessKey = bm9xa03c6d2p
+	appdynamics.agent.accountName = controllerces
+	appdynamics.agent.applicationName = PROD-DEVPLUS
+	appdynamics.agent.nodeName = Node2
+	appdynamics.agent.reuse.nodeName = false
+	appdynamics.agent.reuse.nodeName.prefix = Node2
+	appdynamics.agent.tierName = DEVPLUS
+	appdynamics.controller.hostName = controllerces.saas.appdynamics.com
+	appdynamics.controller.port = 443
+	appdynamics.controller.ssl.enabled = false
+	appdynamics.docker.enabled = true
+	appdynamics.jvm.shutdown.mark.node.as.historical = true
+	appdynamics.log4j2.disable.jmx = true
+	appdynamics.sim.enabled = true
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/nupawar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/ls/v_z9ryc955z1kqx6d5d9hw600000gn/T/
+	java.library.path = /Users/nupawar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_331-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_331
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.331-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain
+	jboss.domain.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration
+	jboss.home.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	jboss.host.name = nupawar-m-12uh
+	jboss.modules.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	jboss.modules.system.pkgs = com.singularity
+	jboss.node.name = master:server-two
+	jboss.qualified.host.name = nupawar-m-12uh
+	jboss.server.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two
+	jboss.server.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/configuration
+	jboss.server.data.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data
+	jboss.server.deploy.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/content
+	jboss.server.log.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/logging.properties
+	module.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 15.3.1
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/classes:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar -mp /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	user.home = /Users/nupawar
+	user.language = en
+	user.name = nupawar
+	user.timezone = America/New_York
+2025-04-02 12:02:07,269 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Server:server-two] -D[pcid:597524740] -Xms128m -Xmx512m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -javaagent:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar -Dappdynamics.agent.accountAccessKey=bm9xa03c6d2p -Dappdynamics.agent.accountName=controllerces -Dappdynamics.controller.hostName=controllerces.saas.appdynamics.com -Dappdynamics.controller.port=443 -Dappdynamics.controller.ssl.enabled=false -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.tierName=DEVPLUS -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.modules.system.pkgs=org.jboss.byteman,com.singularity,org.jboss.logmanager.* -Dappagent.start.timeout=1 -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.nodeName=Node2 -Dappdynamics.agent.reuse.nodeName=false -Dappdynamics.agent.reuse.nodeName.prefix=Node2 -Dappdynamics.agent.tierName=DEVPLUS -Dappdynamics.docker.enabled=true -Dappdynamics.jvm.shutdown.mark.node.as.historical=true -Dappdynamics.sim.enabled=true -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.home.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final -Djboss.modules.system.pkgs=com.singularity -Djboss.server.log.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/log -Djboss.server.temp.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/tmp -Djboss.server.data.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data -Dlogging.configuration=file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/logging.properties 
+2025-04-02 12:02:08,024 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.2.Final
+2025-04-02 12:02:08,082 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.2.Final
+2025-04-02 12:02:08,658 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.5.Final
+2025-04-02 12:02:12,967 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.2.2.Final
+2025-04-02 12:02:13,850 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+2025-04-02 12:02:14,372 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: java.util.concurrent.ExecutionException: JBTHR00005: Operation failed
+	at org.jboss.as.server.ServerStartTask$2$1.load(ServerStartTask.java:188)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:377)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.concurrent.ExecutionException: JBTHR00005: Operation failed
+	at org.jboss.threads.AsyncFutureTask.get(AsyncFutureTask.java:253)
+	at org.jboss.as.server.mgmt.domain.ServerBootOperationsService$2.get(ServerBootOperationsService.java:113)
+	at org.jboss.as.server.mgmt.domain.ServerBootOperationsService$2.get(ServerBootOperationsService.java:95)
+	at org.jboss.as.server.ServerStartTask$2$1.load(ServerStartTask.java:185)
+	... 3 more
+Caused by: java.io.IOException: WFLYPRT0054: Channel closed
+	at org.jboss.as.protocol.mgmt.FutureManagementChannel.channelClosed(FutureManagementChannel.java:65)
+	at org.jboss.as.protocol.mgmt.FutureManagementChannel.getChannel(FutureManagementChannel.java:59)
+	at org.jboss.as.server.mgmt.domain.HostControllerConnection.getChannel(HostControllerConnection.java:110)
+	at org.jboss.as.protocol.mgmt.ManagementChannelHandler.executeRequest(ManagementChannelHandler.java:135)
+	at org.jboss.as.protocol.mgmt.ManagementChannelHandler.executeRequest(ManagementChannelHandler.java:110)
+	at org.jboss.as.server.mgmt.domain.HostControllerConnection.openConnection(HostControllerConnection.java:130)
+	at org.jboss.as.server.mgmt.domain.HostControllerClient.resolveBootUpdates(HostControllerClient.java:110)
+	at org.jboss.as.server.mgmt.domain.ServerBootOperationsService$1.run(ServerBootOperationsService.java:68)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1349)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2025-04-02 12:02:14,369 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 2) MSC000001: Failed to start service jboss.server-boot-operations: org.jboss.msc.service.StartException in service jboss.server-boot-operations: java.io.IOException: WFLYPRT0054: Channel closed
+	at org.jboss.as.server.mgmt.domain.ServerBootOperationsService$1.run(ServerBootOperationsService.java:72)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1349)
+	at java.lang.Thread.run(Thread.java:750)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.io.IOException: WFLYPRT0054: Channel closed
+	at org.jboss.as.protocol.mgmt.FutureManagementChannel.channelClosed(FutureManagementChannel.java:65)
+	at org.jboss.as.protocol.mgmt.FutureManagementChannel.getChannel(FutureManagementChannel.java:59)
+	at org.jboss.as.server.mgmt.domain.HostControllerConnection.getChannel(HostControllerConnection.java:110)
+	at org.jboss.as.protocol.mgmt.ManagementChannelHandler.executeRequest(ManagementChannelHandler.java:135)
+	at org.jboss.as.protocol.mgmt.ManagementChannelHandler.executeRequest(ManagementChannelHandler.java:110)
+	at org.jboss.as.server.mgmt.domain.HostControllerConnection.openConnection(HostControllerConnection.java:130)
+	at org.jboss.as.server.mgmt.domain.HostControllerClient.resolveBootUpdates(HostControllerClient.java:110)
+	at org.jboss.as.server.mgmt.domain.ServerBootOperationsService$1.run(ServerBootOperationsService.java:68)
+	... 6 more
+
+2025-04-02 12:02:14,506 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) stopped in 118ms
+2025-04-02 12:09:36,904 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2025-04-02 12:09:38,543 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2025-04-02 12:09:38,604 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2025-04-02 12:09:39,919 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2025-04-02 12:09:39,984 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Server:server-two] = 
+	[pcid:1762733115] = 
+	appdynamics.agent.accountAccessKey = bm9xa03c6d2p
+	appdynamics.agent.accountName = controllerces
+	appdynamics.agent.applicationName = PROD-DEVPLUS
+	appdynamics.agent.nodeName = Node2
+	appdynamics.agent.reuse.nodeName = false
+	appdynamics.agent.reuse.nodeName.prefix = Node2
+	appdynamics.agent.tierName = DEVPLUS
+	appdynamics.controller.hostName = controllerces.saas.appdynamics.com
+	appdynamics.controller.port = 443
+	appdynamics.controller.ssl.enabled = false
+	appdynamics.docker.enabled = true
+	appdynamics.jvm.shutdown.mark.node.as.historical = true
+	appdynamics.log4j2.disable.jmx = true
+	appdynamics.sim.enabled = true
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/nupawar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/ls/v_z9ryc955z1kqx6d5d9hw600000gn/T/
+	java.library.path = /Users/nupawar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_331-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_331
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.331-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain
+	jboss.domain.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration
+	jboss.home.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	jboss.host.name = nupawar-m-12uh
+	jboss.modules.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	jboss.modules.system.pkgs = com.singularity
+	jboss.node.name = master:server-two
+	jboss.qualified.host.name = nupawar-m-12uh
+	jboss.server.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two
+	jboss.server.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/configuration
+	jboss.server.data.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data
+	jboss.server.deploy.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/content
+	jboss.server.log.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/logging.properties
+	module.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 15.3.1
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/classes:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_331.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar -mp /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	user.home = /Users/nupawar
+	user.language = en
+	user.name = nupawar
+	user.timezone = America/New_York
+2025-04-02 12:09:40,011 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Server:server-two] -D[pcid:1762733115] -Xms128m -Xmx512m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -javaagent:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar -Dappdynamics.agent.accountAccessKey=bm9xa03c6d2p -Dappdynamics.agent.accountName=controllerces -Dappdynamics.controller.hostName=controllerces.saas.appdynamics.com -Dappdynamics.controller.port=443 -Dappdynamics.controller.ssl.enabled=false -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.tierName=DEVPLUS -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.modules.system.pkgs=org.jboss.byteman,com.singularity,org.jboss.logmanager.* -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.nodeName=Node2 -Dappdynamics.agent.reuse.nodeName=false -Dappdynamics.agent.reuse.nodeName.prefix=Node2 -Dappdynamics.agent.tierName=DEVPLUS -Dappdynamics.docker.enabled=true -Dappdynamics.jvm.shutdown.mark.node.as.historical=true -Dappdynamics.sim.enabled=true -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.home.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final -Djboss.modules.system.pkgs=com.singularity -Djboss.server.log.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/log -Djboss.server.temp.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/tmp -Djboss.server.data.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data -Dlogging.configuration=file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/logging.properties 
+2025-04-02 12:09:41,094 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.2.Final
+2025-04-02 12:09:41,268 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.2.Final
+2025-04-02 12:09:41,775 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.5.Final
+2025-04-02 12:09:43,706 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.2.2.Final
+2025-04-02 12:09:55,861 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 4) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-04-02 12:09:58,628 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 39) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-04-02 12:10:00,437 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 59) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2025-04-02 12:10:05,299 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 3.5.0.Final
+2025-04-02 12:10:05,591 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 37) WFLYWS0002: Activating WebServices Extension
+2025-04-02 12:10:05,766 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-04-02 12:10:05,767 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 57) WFLYIIOP0001: Activating IIOP Subsystem
+2025-04-02 12:10:05,779 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 47) WFLYNAM0001: Activating Naming Subsystem
+2025-04-02 12:10:05,780 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 41) WFLYSEC0002: Activating Security Subsystem
+2025-04-02 12:10:06,852 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 51) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2025-04-02 12:10:07,163 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2025-04-02 12:10:08,793 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2025-04-02 12:10:09,288 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2025-04-02 12:10:09,319 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-04-02 12:10:09,616 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.0.Final starting
+2025-04-02 12:10:09,780 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 38) WFLYUT0014: Creating file handler for path '/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-04-02 12:10:11,200 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2025-04-02 12:10:11,199 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2025-04-02 12:10:15,962 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 63) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-04-02 12:10:16,215 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-04-02 12:10:16,553 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-3) WFLYIIOP0009: CORBA ORB Service started
+2025-04-02 12:10:21,848 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2025-04-02 12:10:22,000 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2025-04-02 12:10:23,311 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8230
+2025-04-02 12:10:23,385 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2025-04-02 12:10:23,690 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2025-04-02 12:10:28,395 INFO  [stdout] (AD Agent init) Started AppDynamics Java Agent Successfully.
+2025-04-02 12:10:29,795 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2025-04-02 12:10:33,611 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2025-04-02 12:10:34,518 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/activemq/journal,bindingsDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/activemq/bindings,largeMessagesDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/activemq/largemessages,pagingDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-two/data/activemq/paging)
+2025-04-02 12:10:34,928 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8593
+2025-04-02 12:10:36,470 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-04-02 12:10:37,013 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221013: Using NIO Journal
+2025-04-02 12:10:38,371 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2025-04-02 12:10:38,492 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2025-04-02 12:10:38,575 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2025-04-02 12:10:38,585 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2025-04-02 12:10:38,597 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2025-04-02 12:10:45,175 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-04-02 12:10:45,169 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-04-02 12:10:45,169 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-04-02 12:10:45,169 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-04-02 12:10:46,468 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221007: Server is now live
+2025-04-02 12:10:46,472 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-009 [default, nodeID=519a43c7-fe8e-11ef-b34a-625eff1d50ce] 
+2025-04-02 12:10:46,872 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 68) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2025-04-02 12:10:46,937 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: Deploying queue jms.queue.ExpiryQueue
+2025-04-02 12:10:47,001 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221003: Deploying queue jms.queue.DLQ
+2025-04-02 12:10:47,010 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2025-04-02 12:10:47,096 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0007: Registered connection factory java:/JmsXA
+2025-04-02 12:10:47,394 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-3) Resource adaptor started
+2025-04-02 12:10:47,397 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2025-04-02 12:10:47,410 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2025-04-02 12:10:47,411 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2025-04-02 12:10:48,341 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-04-02 12:10:48,367 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 78160ms - Started 314 of 539 services (321 services are lazy, passive or on-demand)

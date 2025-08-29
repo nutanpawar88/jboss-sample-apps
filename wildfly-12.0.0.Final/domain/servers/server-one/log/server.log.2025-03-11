@@ -1,0 +1,545 @@
+2025-03-11 11:33:11,610 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2025-03-11 11:33:12,302 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2025-03-11 11:33:12,320 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2025-03-11 11:33:12,592 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2025-03-11 11:33:12,594 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-one] = 
+	[pcid:201619898] = 
+	appdynamics.agent.accountAccessKey = bm9xa03c6d2p
+	appdynamics.agent.accountName = controllerces
+	appdynamics.agent.applicationName = PROD-DEVPLUS
+	appdynamics.agent.tierName = DEVPLUS
+	appdynamics.controller.hostName = controllerces.saas.appdynamics.com
+	appdynamics.controller.port = 443
+	appdynamics.controller.ssl.enabled = false
+	appdynamics.log4j2.disable.jmx = true
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/ls/v_z9ryc955z1kqx6d5d9hw600000gn/T/
+	java.library.path = /Users/nupawar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.19+7-adhoc.admin.jdk11u
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenLogic
+	java.vendor.url = https://openlogic.com/
+	java.vendor.url.bug = https://techsupport.roguewave.com/
+	java.vendor.version = OpenLogic-OpenJDK
+	java.version = 11.0.19
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = OpenLogic
+	java.vm.version = 11.0.19+7-adhoc.admin.jdk11u
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain
+	jboss.domain.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration
+	jboss.home.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	jboss.host.name = nupawar-m-12uh
+	jboss.modules.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	jboss.modules.system.pkgs = com.singularity
+	jboss.node.name = master:server-one
+	jboss.qualified.host.name = nupawar-m-12uh
+	jboss.server.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one
+	jboss.server.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/configuration
+	jboss.server.data.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data
+	jboss.server.deploy.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/content
+	jboss.server.log.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log
+	jboss.server.name = server-one
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration/default-server-logging.properties
+	module.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 15.3.1
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar -mp /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	user.home = /Users/nupawar
+	user.language = en
+	user.name = nupawar
+	user.timezone = America/New_York
+2025-03-11 11:33:12,595 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-one] -D[pcid:201619898] -Xms128m -Xmx512m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m --add-exports=java.base/sun.nio.ch=ALL-UNNAMED -javaagent:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar -Dappdynamics.agent.accountAccessKey=bm9xa03c6d2p -Dappdynamics.agent.accountName=controllerces -Dappdynamics.controller.hostName=controllerces.saas.appdynamics.com -Dappdynamics.controller.port=443 -Dappdynamics.controller.ssl.enabled=false -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.tierName=DEVPLUS -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.modules.system.pkgs=org.jboss.byteman,com.singularity,org.jboss.logmanager.* -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final -Djboss.modules.system.pkgs=com.singularity -Djboss.server.log.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log -Djboss.server.temp.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/tmp -Djboss.server.data.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data -Dorg.jboss.boot.log.file=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log/server.log -Dlogging.configuration=file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration/default-server-logging.properties 
+2025-03-11 11:33:13,124 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.2.Final
+2025-03-11 11:33:13,146 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.2.Final
+2025-03-11 11:33:13,262 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.5.Final
+2025-03-11 11:33:13,736 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.2.2.Final
+2025-03-11 11:33:19,882 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 31) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-03-11 11:33:20,795 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 38) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-03-11 11:33:21,159 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 36) WFLYWS0002: Activating WebServices Extension
+2025-03-11 11:33:21,238 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 55) WFLYRS0016: RESTEasy version 3.5.0.Final
+2025-03-11 11:33:21,262 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2025-03-11 11:33:21,396 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-03-11 11:33:21,410 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2025-03-11 11:33:21,409 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 40) WFLYSEC0002: Activating Security Subsystem
+2025-03-11 11:33:21,711 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 58) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2025-03-11 11:33:21,891 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2025-03-11 11:33:22,102 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 56) WFLYIIOP0001: Activating IIOP Subsystem
+2025-03-11 11:33:22,496 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 37) WFLYUT0014: Creating file handler for path '/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-03-11 11:33:22,563 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.0.Final starting
+2025-03-11 11:33:23,161 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2025-03-11 11:33:23,079 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2025-03-11 11:33:23,224 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-03-11 11:33:24,341 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2025-03-11 11:33:24,356 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 62) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-03-11 11:33:24,344 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2025-03-11 11:33:24,499 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-03-11 11:33:26,148 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2025-03-11 11:33:26,218 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2025-03-11 11:33:26,414 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-2) WFLYIIOP0009: CORBA ORB Service started
+2025-03-11 11:33:26,967 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2025-03-11 11:33:29,291 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: EJB subsystem suspension complete
+2025-03-11 11:33:29,355 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2025-03-11 11:33:29,650 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2025-03-11 11:33:30,033 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2025-03-11 11:33:30,388 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-03-11 11:33:30,405 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2025-03-11 11:33:30,434 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/journal,bindingsDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/bindings,largeMessagesDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/largemessages,pagingDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/paging)
+2025-03-11 11:33:31,979 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221013: Using NIO Journal
+2025-03-11 11:33:32,650 INFO  [stdout] (AD Agent init) Started AppDynamics Java Agent Successfully.
+2025-03-11 11:33:33,595 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2025-03-11 11:33:33,733 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2025-03-11 11:33:33,749 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2025-03-11 11:33:33,751 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2025-03-11 11:33:34,610 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2025-03-11 11:33:34,793 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-03-11 11:33:34,791 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-03-11 11:33:34,791 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-03-11 11:33:34,793 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-03-11 11:33:35,151 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221007: Server is now live
+2025-03-11 11:33:35,151 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-009 [default, nodeID=2f4b9bbc-fe8e-11ef-b10b-625eff1d50ce] 
+2025-03-11 11:33:35,336 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2025-03-11 11:33:35,415 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221003: Deploying queue jms.queue.ExpiryQueue
+2025-03-11 11:33:35,459 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2025-03-11 11:33:35,585 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2025-03-11 11:33:35,589 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: Deploying queue jms.queue.DLQ
+2025-03-11 11:33:35,654 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-4) Resource adaptor started
+2025-03-11 11:33:35,655 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2025-03-11 11:33:35,661 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2025-03-11 11:33:35,662 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2025-03-11 11:33:35,873 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-03-11 11:33:35,887 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 25031ms - Started 314 of 539 services (321 services are lazy, passive or on-demand)
+2025-03-11 11:46:10,088 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0236: Suspending server with no timeout.
+2025-03-11 11:46:10,150 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: EJB subsystem suspension complete
+2025-03-11 11:46:10,161 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-03-11 11:46:10,840 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2025-03-11 11:46:10,839 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 35) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2025-03-11 11:46:10,899 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2025-03-11 11:46:10,901 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-03-11 11:46:10,911 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2025-03-11 11:46:10,929 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-03-11 11:46:10,970 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-03-11 11:46:11,023 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-03-11 11:46:11,181 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 19) AMQ151003: resource adaptor stopped
+2025-03-11 11:46:11,732 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 19) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-009 [2f4b9bbc-fe8e-11ef-b10b-625eff1d50ce] stopped, uptime 12 minutes
+2025-03-11 11:46:11,742 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2025-03-11 11:46:11,753 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-03-11 11:46:11,756 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 2.0.0.Final stopping
+2025-03-11 11:46:11,822 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) stopped in 1376ms
+2025-03-11 12:30:10,083 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2025-03-11 12:30:11,119 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2025-03-11 12:30:11,153 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2025-03-11 12:30:11,729 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2025-03-11 12:30:11,732 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-one] = 
+	[pcid:1082037223] = 
+	appdynamics.agent.accountAccessKey = bm9xa03c6d2p
+	appdynamics.agent.accountName = controllerces
+	appdynamics.agent.applicationName = PROD-DEVPLUS
+	appdynamics.agent.reuse.nodeName = false
+	appdynamics.agent.reuse.nodeName.prefix = Node2
+	appdynamics.agent.tierName = DEVPLUS
+	appdynamics.controller.hostName = controllerces.saas.appdynamics.com
+	appdynamics.controller.port = 443
+	appdynamics.controller.ssl.enabled = false
+	appdynamics.docker.enabled = true
+	appdynamics.jvm.shutdown.mark.node.as.historical = true
+	appdynamics.log4j2.disable.jmx = true
+	appdynamics.sim.enabled = true
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/ls/v_z9ryc955z1kqx6d5d9hw600000gn/T/
+	java.library.path = /Users/nupawar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.19+7-adhoc.admin.jdk11u
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenLogic
+	java.vendor.url = https://openlogic.com/
+	java.vendor.url.bug = https://techsupport.roguewave.com/
+	java.vendor.version = OpenLogic-OpenJDK
+	java.version = 11.0.19
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = OpenLogic
+	java.vm.version = 11.0.19+7-adhoc.admin.jdk11u
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain
+	jboss.domain.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration
+	jboss.home.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	jboss.host.name = nupawar-m-12uh
+	jboss.modules.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	jboss.modules.system.pkgs = com.singularity
+	jboss.node.name = master:server-one
+	jboss.qualified.host.name = nupawar-m-12uh
+	jboss.server.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one
+	jboss.server.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/configuration
+	jboss.server.data.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data
+	jboss.server.deploy.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/content
+	jboss.server.log.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log
+	jboss.server.name = server-one
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/logging.properties
+	module.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 15.3.1
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar -mp /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	user.home = /Users/nupawar
+	user.language = en
+	user.name = nupawar
+	user.timezone = America/New_York
+2025-03-11 12:30:11,734 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-one] -D[pcid:1082037223] -Xms128m -Xmx512m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m --add-exports=java.base/sun.nio.ch=ALL-UNNAMED -javaagent:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar -Dappdynamics.agent.accountAccessKey=bm9xa03c6d2p -Dappdynamics.agent.accountName=controllerces -Dappdynamics.controller.hostName=controllerces.saas.appdynamics.com -Dappdynamics.controller.port=443 -Dappdynamics.controller.ssl.enabled=false -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.tierName=DEVPLUS -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.modules.system.pkgs=org.jboss.byteman,com.singularity,org.jboss.logmanager.* -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.reuse.nodeName=false -Dappdynamics.agent.reuse.nodeName.prefix=Node2 -Dappdynamics.agent.tierName=DEVPLUS -Dappdynamics.docker.enabled=true -Dappdynamics.jvm.shutdown.mark.node.as.historical=true -Dappdynamics.sim.enabled=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final -Djboss.modules.system.pkgs=com.singularity -Djboss.server.log.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log -Djboss.server.temp.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/tmp -Djboss.server.data.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data -Dlogging.configuration=file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/logging.properties 
+2025-03-11 12:30:12,671 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.2.Final
+2025-03-11 12:30:12,736 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.2.Final
+2025-03-11 12:30:12,869 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final
+2025-03-11 12:30:13,554 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.2.2.Final
+2025-03-11 12:30:39,614 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 4) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-03-11 12:30:46,525 INFO  [stdout] (AD Agent init) Started AppDynamics Java Agent Successfully.
+2025-03-11 12:30:47,304 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 41) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-03-11 12:30:49,349 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 3.5.0.Final
+2025-03-11 12:30:49,352 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 53) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2025-03-11 12:30:50,745 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 49) WFLYNAM0001: Activating Naming Subsystem
+2025-03-11 12:30:50,745 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 39) WFLYWS0002: Activating WebServices Extension
+2025-03-11 12:30:50,763 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 59) WFLYIIOP0001: Activating IIOP Subsystem
+2025-03-11 12:30:50,762 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-03-11 12:30:50,762 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 43) WFLYSEC0002: Activating Security Subsystem
+2025-03-11 12:30:51,215 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2025-03-11 12:30:52,322 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2025-03-11 12:30:53,791 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 61) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2025-03-11 12:30:54,620 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-03-11 12:30:54,568 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2025-03-11 12:30:55,486 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.0.0.Final starting
+2025-03-11 12:30:55,625 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 40) WFLYUT0014: Creating file handler for path '/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-03-11 12:30:56,167 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2025-03-11 12:30:56,173 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2025-03-11 12:30:57,674 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 65) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-03-11 12:30:58,187 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-03-11 12:30:59,386 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-8) WFLYIIOP0009: CORBA ORB Service started
+2025-03-11 12:31:00,659 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2025-03-11 12:31:00,734 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2025-03-11 12:31:01,915 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2025-03-11 12:31:02,353 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2025-03-11 12:31:02,805 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2025-03-11 12:31:05,150 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2025-03-11 12:31:05,130 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/journal,bindingsDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/bindings,largeMessagesDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/largemessages,pagingDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/paging)
+2025-03-11 12:31:08,043 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
+2025-03-11 12:31:08,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2025-03-11 12:31:08,995 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221013: Using NIO Journal
+2025-03-11 12:31:09,469 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-03-11 12:31:09,572 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2025-03-11 12:31:09,588 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2025-03-11 12:31:09,591 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2025-03-11 12:31:09,596 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2025-03-11 12:31:09,820 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2025-03-11 12:31:10,388 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-03-11 12:31:10,388 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-03-11 12:31:10,393 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-03-11 12:31:10,393 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-03-11 12:31:11,160 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221007: Server is now live
+2025-03-11 12:31:11,164 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-009 [default, nodeID=2f4b9bbc-fe8e-11ef-b10b-625eff1d50ce] 
+2025-03-11 12:31:11,548 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2025-03-11 12:31:11,636 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 72) AMQ221003: Deploying queue jms.queue.DLQ
+2025-03-11 12:31:11,680 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: Deploying queue jms.queue.ExpiryQueue
+2025-03-11 12:31:11,687 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 70) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2025-03-11 12:31:11,805 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2025-03-11 12:31:12,066 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) Resource adaptor started
+2025-03-11 12:31:12,069 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2025-03-11 12:31:12,083 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2025-03-11 12:31:12,088 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2025-03-11 12:31:12,417 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-03-11 12:31:12,437 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 63834ms - Started 314 of 539 services (321 services are lazy, passive or on-demand)
+2025-03-11 13:04:59,491 INFO  [stdout] (Thread-1) Shutting down AppDynamics Agent
+2025-03-11 13:04:59,481 INFO  [org.jboss.as.server] (Thread-3) WFLYSRV0236: Suspending server with no timeout.
+2025-03-11 13:04:59,625 INFO  [org.jboss.as.ejb3] (Thread-3) WFLYEJB0493: EJB subsystem suspension complete
+2025-03-11 13:04:59,655 INFO  [org.jboss.as.server] (Thread-3) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-03-11 13:05:00,299 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 70) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2025-03-11 13:05:00,330 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2025-03-11 13:05:00,361 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2025-03-11 13:05:00,365 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-03-11 13:05:00,455 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2025-03-11 13:05:00,470 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-03-11 13:05:00,557 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-03-11 13:05:00,575 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-03-11 13:05:00,854 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 70) AMQ151003: resource adaptor stopped
+2025-03-11 13:05:01,400 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-009 [2f4b9bbc-fe8e-11ef-b10b-625eff1d50ce] stopped, uptime 33 minutes
+2025-03-11 13:05:01,421 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2025-03-11 13:05:01,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-03-11 13:05:01,437 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.0.0.Final stopping
+2025-03-11 13:05:01,507 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) stopped in 1651ms
+2025-03-11 13:07:29,485 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2025-03-11 13:07:30,196 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2025-03-11 13:07:30,213 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2025-03-11 13:07:30,478 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2025-03-11 13:07:30,480 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-one] = 
+	[pcid:650435239] = 
+	appdynamics.agent.accountAccessKey = bm9xa03c6d2p
+	appdynamics.agent.accountName = controllerces
+	appdynamics.agent.applicationName = PROD-DEVPLUS
+	appdynamics.agent.reuse.nodeName = false
+	appdynamics.agent.reuse.nodeName.prefix = Node2
+	appdynamics.agent.tierName = DEVPLUS
+	appdynamics.controller.hostName = controllerces.saas.appdynamics.com
+	appdynamics.controller.port = 443
+	appdynamics.controller.ssl.enabled = false
+	appdynamics.docker.enabled = true
+	appdynamics.jvm.shutdown.mark.node.as.historical = true
+	appdynamics.log4j2.disable.jmx = true
+	appdynamics.sim.enabled = true
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/ls/v_z9ryc955z1kqx6d5d9hw600000gn/T/
+	java.library.path = /Users/nupawar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.19+7-adhoc.admin.jdk11u
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenLogic
+	java.vendor.url = https://openlogic.com/
+	java.vendor.url.bug = https://techsupport.roguewave.com/
+	java.vendor.version = OpenLogic-OpenJDK
+	java.version = 11.0.19
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = OpenLogic
+	java.vm.version = 11.0.19+7-adhoc.admin.jdk11u
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain
+	jboss.domain.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration
+	jboss.home.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	jboss.host.name = nupawar-m-12uh
+	jboss.modules.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	jboss.modules.system.pkgs = com.singularity
+	jboss.node.name = master:server-one
+	jboss.qualified.host.name = nupawar-m-12uh
+	jboss.server.base.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one
+	jboss.server.config.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/configuration
+	jboss.server.data.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data
+	jboss.server.deploy.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/content
+	jboss.server.log.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log
+	jboss.server.name = server-one
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/logging.properties
+	module.path = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 15.3.1
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/jboss-modules.jar -mp /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final
+	user.home = /Users/nupawar
+	user.language = en
+	user.name = nupawar
+	user.timezone = America/New_York
+2025-03-11 13:07:30,481 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-one] -D[pcid:650435239] -Xms128m -Xmx512m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m --add-exports=java.base/sun.nio.ch=ALL-UNNAMED -javaagent:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/AppServerAgent-1.8-22.10.0.34344/javaagent.jar -Dappdynamics.agent.accountAccessKey=bm9xa03c6d2p -Dappdynamics.agent.accountName=controllerces -Dappdynamics.controller.hostName=controllerces.saas.appdynamics.com -Dappdynamics.controller.port=443 -Dappdynamics.controller.ssl.enabled=false -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.tierName=DEVPLUS -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.modules.system.pkgs=org.jboss.byteman,com.singularity,org.jboss.logmanager.* -Dappdynamics.agent.applicationName=PROD-DEVPLUS -Dappdynamics.agent.reuse.nodeName=false -Dappdynamics.agent.reuse.nodeName.prefix=Node2 -Dappdynamics.agent.tierName=DEVPLUS -Dappdynamics.docker.enabled=true -Dappdynamics.jvm.shutdown.mark.node.as.historical=true -Dappdynamics.sim.enabled=true -Djava.net.preferIPv4Stack=true -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Djboss.home.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final -Djboss.modules.system.pkgs=com.singularity -Djboss.server.log.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/log -Djboss.server.temp.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/tmp -Djboss.server.data.dir=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data -Dlogging.configuration=file:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/logging.properties 
+2025-03-11 13:07:31,069 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.2.Final
+2025-03-11 13:07:31,113 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.2.Final
+2025-03-11 13:07:31,233 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.5.Final
+2025-03-11 13:07:31,734 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.2.2.Final
+2025-03-11 13:07:38,541 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 31) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-03-11 13:07:39,072 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 38) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-03-11 13:07:39,548 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2025-03-11 13:07:39,554 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 55) WFLYRS0016: RESTEasy version 3.5.0.Final
+2025-03-11 13:07:39,613 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-03-11 13:07:39,636 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 36) WFLYWS0002: Activating WebServices Extension
+2025-03-11 13:07:39,636 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2025-03-11 13:07:39,637 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 56) WFLYIIOP0001: Activating IIOP Subsystem
+2025-03-11 13:07:39,872 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 40) WFLYSEC0002: Activating Security Subsystem
+2025-03-11 13:07:39,903 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 58) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2025-03-11 13:07:40,334 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2025-03-11 13:07:40,454 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2025-03-11 13:07:40,734 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 37) WFLYUT0014: Creating file handler for path '/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-03-11 13:07:40,778 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.0.Final starting
+2025-03-11 13:07:41,412 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2025-03-11 13:07:41,507 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-03-11 13:07:41,684 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 62) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-03-11 13:07:41,872 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-03-11 13:07:43,641 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2025-03-11 13:07:43,627 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2025-03-11 13:07:45,226 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2025-03-11 13:07:45,273 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2025-03-11 13:07:46,277 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-7) WFLYIIOP0009: CORBA ORB Service started
+2025-03-11 13:07:46,619 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2025-03-11 13:07:50,007 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2025-03-11 13:07:50,277 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2025-03-11 13:07:51,081 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2025-03-11 13:07:51,099 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/journal,bindingsDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/bindings,largeMessagesDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/largemessages,pagingDirectory=/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-12.0.0.Final/domain/servers/server-one/data/activemq/paging)
+2025-03-11 13:07:51,199 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2025-03-11 13:07:51,511 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221013: Using NIO Journal
+2025-03-11 13:07:51,577 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2025-03-11 13:07:52,241 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2025-03-11 13:07:52,286 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2025-03-11 13:07:52,296 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2025-03-11 13:07:52,307 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2025-03-11 13:07:52,458 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-03-11 13:07:55,463 INFO  [stdout] (AD Agent init) Started AppDynamics Java Agent Successfully.
+2025-03-11 13:07:56,577 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2025-03-11 13:07:57,173 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-03-11 13:07:57,173 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2025-03-11 13:07:57,173 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-03-11 13:07:57,176 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2025-03-11 13:07:58,094 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221007: Server is now live
+2025-03-11 13:07:58,095 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-009 [default, nodeID=2f4b9bbc-fe8e-11ef-b10b-625eff1d50ce] 
+2025-03-11 13:07:58,248 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221003: Deploying queue jms.queue.DLQ
+2025-03-11 13:07:58,578 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 70) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2025-03-11 13:07:58,588 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221003: Deploying queue jms.queue.ExpiryQueue
+2025-03-11 13:07:58,594 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 71) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2025-03-11 13:07:58,678 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0007: Registered connection factory java:/JmsXA
+2025-03-11 13:07:58,883 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-2) Resource adaptor started
+2025-03-11 13:07:58,884 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2025-03-11 13:07:58,888 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2025-03-11 13:07:58,889 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2025-03-11 13:07:59,640 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-03-11 13:07:59,669 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 31017ms - Started 314 of 539 services (321 services are lazy, passive or on-demand)
+2025-03-11 15:51:59,628 INFO  [org.jboss.as.server] (Thread-3) WFLYSRV0236: Suspending server with no timeout.
+2025-03-11 15:51:59,649 INFO  [stdout] (Thread-1) Shutting down AppDynamics Agent
+2025-03-11 15:51:59,734 INFO  [org.jboss.as.ejb3] (Thread-3) WFLYEJB0493: EJB subsystem suspension complete
+2025-03-11 15:51:59,759 INFO  [org.jboss.as.server] (Thread-3) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-03-11 15:52:00,645 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2025-03-11 15:52:00,689 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-03-11 15:52:00,689 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2025-03-11 15:52:00,715 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 17) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2025-03-11 15:52:00,758 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2025-03-11 15:52:00,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-03-11 15:52:00,856 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-03-11 15:52:00,891 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-03-11 15:52:01,407 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 74) AMQ151003: resource adaptor stopped
+2025-03-11 15:52:01,941 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 74) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-009 [2f4b9bbc-fe8e-11ef-b10b-625eff1d50ce] stopped, uptime 2 hours 44 minutes
+2025-03-11 15:52:01,963 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2025-03-11 15:52:01,970 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-03-11 15:52:01,973 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.0.0.Final stopping
+2025-03-11 15:52:02,182 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) stopped in 2078ms

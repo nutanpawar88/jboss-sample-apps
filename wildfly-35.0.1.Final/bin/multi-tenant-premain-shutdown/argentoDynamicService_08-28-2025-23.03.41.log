@@ -1,0 +1,648 @@
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  13aba266-1880-4cbd-b8a6-4a1d8ead19bf  [Thread=AD Thread Pool-Global1] Initial logging set in external services folder: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  e0ca9132-cf02-4103-ac0b-31ca7075ed13  [Thread=AD Thread Pool-Global1] Now initializing the Dynamic Service  argentoDynamicService
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  0f7627b2-f5d8-4f76-8172-2cc2a3077aeb  [Thread=AD Thread Pool-Global1] Multi-Tenant-Agent-Dynamic-Service: starting service...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  23464b65-86ad-4646-8d6a-4bc1392955cf  [Thread=AD Thread Pool-Global1] Now launching the AgentStartupHookAdaptor called by the Dynamic Service...launching from /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  f09e34b0-1563-46db-a7bf-0eb9da572e9b  [Thread=AD Thread Pool-Global1] Launching Argento Dynamic Service via com.cisco.mtagent.adaptors.AgentStartupHookAdaptor
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  d77803e1-9f2a-4875-b59b-172d3a24aaa4  [Thread=AD Thread Pool-Global1] Current directory is /Users/nupawar/eclipse-workspace/BumbleBee/wildfly-35.0.1.Final/bin/.
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  4d332561-5621-4b33-8b60-0605209ba0fb  [Thread=AD Thread Pool-Global1] Adaptor directory is /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  28805be8-888c-485f-bb4c-a81d130e3177  [Thread=AD Thread Pool-Global1] Are we doing Unit Tests? false
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  7e4980c8-f55e-4c40-a13a-4f2cd45b5526  [Thread=AD Thread Pool-Global1] APM Agent Mode? null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  152f061e-0ae9-4d0c-8426-7f6dada8e0c4  [Thread=AD Thread Pool-Global1] Preparing Otel Extension Folder /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  d32eee0b-1b65-464e-947f-65332c5b01cc  [Thread=AD Thread Pool-Global1] Loading Dynamic Service Properties from /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argentoDynamicService.properties
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  42f089e7-4509-43ea-ba58-183aa9ed7611  [Thread=AD Thread Pool-Global1] Checking to see if System property file /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argentoDynamicService-system.properties exists to set properties in the runtime...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  95112c17-7410-4440-ad01-a943c76a1638  [Thread=AD Thread Pool-Global1] System property file /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argentoDynamicService-system.properties does not exist, no System properties will be set from it...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  11b1eea1-4f57-469e-910e-ce6cff702f26  [Thread=AD Thread Pool-Global1] The AgentStartupHookAdaptor will be Launching Multi Tenant Java Agent Jar /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent.jar
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  c77779c6-6b0c-4caf-963b-db6ab3cb009e  [Thread=AD Thread Pool-Global1] StartupHookAdaptor is Launching from Adaptor Multi Tenant Java Agent Jar /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent.jar
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  1d9e7ce2-e896-42a4-bcc8-e6b86d8f4e48  [Thread=AD Thread Pool-Global1] Opening ManifestFile in jar /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent.jar
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  7a316316-5860-4e5f-905c-9979d9a8c28e  [Thread=AD Thread Pool-Global1] Now getting the input stream for manifest in jar...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  2ac7836f-8646-44e9-a33d-dcc929964354  [Thread=AD Thread Pool-Global1] Reading from Manifest: Manifest-Version: 1.0
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  4b85da7d-f9f6-4aa5-9cc6-5fff655b450c  [Thread=AD Thread Pool-Global1] Reading from Manifest: Implementation-Title: Cisco Multi-Tenant Agent
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  257828b1-66df-4c31-b549-2c00105a552e  [Thread=AD Thread Pool-Global1] Reading from Manifest: Implementation-Version: 1.0
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  ec76f39d-a24b-43c2-ac94-4d2acd964494  [Thread=AD Thread Pool-Global1] Reading from Manifest: Built-By: ubuntu
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  266624ae-a58b-4015-8e05-e6a061a8786c  [Thread=AD Thread Pool-Global1] Reading from Manifest: Built-Date: Wed Jun 11 02:03:13 UTC 2025
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  7cc8beaf-a5a7-4110-830d-288e1026f497  [Thread=AD Thread Pool-Global1] Reading from Manifest: Built-JDK: 11.0.27
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  626295b6-cc05-44e6-b77e-2e329ff18516  [Thread=AD Thread Pool-Global1] Reading from Manifest: Can-Retransform-Classes: true
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  c514550e-6fa4-498e-8ec8-d0f453d39454  [Thread=AD Thread Pool-Global1] Reading from Manifest: Can-Redefine-Classes: true
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  305d02ab-0ce5-4737-9f21-9c01a2be0b69  [Thread=AD Thread Pool-Global1] Reading from Manifest: Boot-Class-Path: mtAgent-boot.jar
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  ce752df6-760e-4c9c-a7c2-c4aa47ea00b1  [Thread=AD Thread Pool-Global1] Reading from Manifest: Class-Path: mtAgent-V9.jar
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  7fea5d8b-9d2d-460e-931a-b82a70cfcf6e  [Thread=AD Thread Pool-Global1] Reading from Manifest: Premain-Class: com.cisco.mtagent.entry.MTAgent
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  5ce43ad8-8db0-4cb9-aeec-a2c9a69c9f66  [Thread=AD Thread Pool-Global1] Reading from Manifest: Agent-Class: com.cisco.mtagent.entry.MTAgent
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  46bd1631-c249-40c7-b1bc-6b7ec2eed571  [Thread=AD Thread Pool-Global1] Reading from Manifest: 
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  853ce317-5ca6-42c3-a216-11dbfd16714c  [Thread=AD Thread Pool-Global1] Adaptor Agent Manifest is Manifest-Version: 1.0
+Implementation-Title: Cisco Multi-Tenant Agent
+Implementation-Version: 1.0
+Built-By: ubuntu
+Built-Date: Wed Jun 11 02:03:13 UTC 2025
+Built-JDK: 11.0.27
+Can-Retransform-Classes: true
+Can-Redefine-Classes: true
+Boot-Class-Path: mtAgent-boot.jar
+Class-Path: mtAgent-V9.jar
+Premain-Class: com.cisco.mtagent.entry.MTAgent
+Agent-Class: com.cisco.mtagent.entry.MTAgent
+
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  d3d9ea01-fca7-47b4-9978-b88f939e81a1  [Thread=AD Thread Pool-Global1] Adaptor Agent Manifest map is {Can-Redefine-Classes=true, Implementation-Title=Cisco Multi-Tenant Agent, Built-JDK=11.0.27, Built-Date=Wed Jun 11 02, Boot-Class-Path=mtAgent-boot.jar, Implementation-Version=1.0, Manifest-Version=1.0, Class-Path=mtAgent-V9.jar, Agent-Class=com.cisco.mtagent.entry.MTAgent, Can-Retransform-Classes=true, Premain-Class=com.cisco.mtagent.entry.MTAgent, Built-By=ubuntu}
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  1ae96c48-6168-444c-9c1b-5eb57c2cbeef  [Thread=AD Thread Pool-Global1] Adding Adaptor Agent jar /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent-boot.jar to boot loader classpath...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  c27edcd6-a9ee-4c54-a136-4547ea2662c2  [Thread=AD Thread Pool-Global1] Adding jar /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent-V9.jar to system loader classpath...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  1f04c931-2ca9-408c-af3f-101cd8dd1626  [Thread=AD Thread Pool-Global1] Adding jar /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent.jar to system loader classpath...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  96cf8e9c-066b-4f2c-bba7-51832385e274  [Thread=AD Thread Pool-Global1] Adding Agent Entry jar /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argento-security-extension/lib/mtAgent.jar to system loader classpath...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  d96a8cc7-172a-48be-9858-dac1ac679735  [Thread=AD Thread Pool-Global1] Adaptor Agent jar is now loaded in System Class Loader...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  0cd4291a-f905-44b5-acb9-d5b8269901cb  [Thread=AD Thread Pool-Global1] Boot class class com.cisco.mtagent.boot.Controller created, loader is null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  450d4daa-3adb-42a5-9f22-2b2a6de5ea33  [Thread=AD Thread Pool-Global1] Java version is 17
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  fe2abb87-5957-4507-8927-f0812442731f  [Thread=AD Thread Pool-Global1] About to load the Adaptor Agent premain class...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  c242ff8a-0470-40f4-9a77-483dcdaa4e6f  [Thread=AD Thread Pool-Global1] Premain class loaded...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  30ef27f9-d52a-41cd-8d89-ddb102d21a6e  [Thread=AD Thread Pool-Global1] Launching startup adaptor thread...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  1eb83532-cc03-4a4a-8cb1-132ca0f5da37  [Thread=AD Thread Pool-Global1] Multi-Tenant-Agent-Dynamic-Service: service started successfully...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  b0d5cdb0-7fb4-43fe-b9c9-31d8f4bbba18  [Thread=AD Thread Pool-Global1] 
+APM Service Info==> 
+Installation Dir: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159
+Agent Runtime Dir: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159
+Config Dir: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/conf
+Runtime Config Dir: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/conf
+Base Config Dir: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/conf
+Installation Dir: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159
+Node Dir: Nutan-Wildfly-35
+Logs Dir: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/logs/Nutan-Wildfly-35
+
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  c7d594d3-bf6c-4e01-924e-c7482a197db0  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now flushing all 51 buffered log messages based on Normal Bootstrapping
+Checking for all Java Agents...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  442fa50f-7f6b-4914-8197-c724b3637e07  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent Location is /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/javaagent.jar
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  87fedcdc-e561-4c02-8c6d-57d5421332b8  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent installation directory: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  339f7560-5622-4a2b-8587-c16e1f152836  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Could not determine AppDynamics config Setting for (appdynamics.agent.conf.dir, APPDYNAMICS_AGENT_CONFIG_DIR, null)
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  ba9b5381-9351-4367-a2f5-8d4d26423518  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Could not determine AppDynamics config Setting for (appdynamics.global.config.dir, APPDYNAMICS_GLOBAL_CONFIG_DIR, null)
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  73593680-1685-4a3f-a57b-c9ee55c0a4a2  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Install Dir is parent of a global config folder...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  7fbce59e-879b-49c2-a635-f2b74ba4c785  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent global config found here: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/conf
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  e47aa28f-7ca0-4c0b-ac06-c2d59e6b8178  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent version config found here: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/conf
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  21aa4a60-8954-46bd-a204-3ec5467fd634  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Property file APM Agent version config agent.properties does not exist here: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/conf/agent.properties
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  728caee5-436d-4c28-96bd-0998e81b0841  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Property file APM Agent global config agent.properties does not exist here: /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/conf/agent.properties
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  bd0e45bb-fe2c-466a-9264-9468776ba6b4  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] >>>>>>>>>>>> APM Agent version config controller-info.xml
+ content==>
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    <!-- For detailed information on the ways you can configure the Java Agent
+    and configuration order of precedence, see:
+    https://docs.appdynamics.com/display/LATEST/Administer+the+Java+Agent
+
+    The agent applies configurations in the following order of precedence.
+      1. Environment variables.
+      2. System properties passed on the command line.
+      3. Versioned agent properties.    /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/agent.properties
+      4. Global agent properties.       /$(Agent-Base-Install-Dir)/conf/agent.properties
+      5. Versioned configuration file.  /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/controller-info.xml
+      6. Global configuration file.     /$(Agent-Base-Install-Dir)/conf/controller-info.xml -->
+
+    <!-- The host name or the IP address of the AppDynamics Controller.
+    For example, ************ or myhost or myhost.abc.com
+    This is the same host that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_HOST_NAME' or
+    the system property '-Dappdynamics.controller.hostName' -->
+    <controller-host>controllerces.saas.appdynamics.com</controller-host>
+
+    <!-- The http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' below is set to true, you must
+    specify the HTTPS port of the Controller, otherwise specify the HTTP port. The Controller listens on port 8090 by default.
+    If you set 'controller-ssl-enabled' to true, the Controller listens on port 8181.
+    If you are using a saas Controller, the ssl port is 443
+    This is the same port that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_PORT' or
+    the system property '-Dappdynamics.controller.port' -->
+    <controller-port>443</controller-port>
+
+    <!-- Connect to the Controller using SSL(HTTPS). If you set this to true,
+    set the controller-port property to the HTTPS port for the Controller.
+    The agent only connects to the Controller using SSL when you enable this property. Otherwise, the
+    agent connects to the Controller using HTTP.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_SSL_ENABLED' or
+    the system property '-Dappdynamics.controller.ssl.enabled' -->
+    <controller-ssl-enabled>true</controller-ssl-enabled>
+
+    <!-- Truncate the hostname to remove the domain name.
+    For example, 'server.mydomain.com' becomes 'server'. Hostnames with no domain remain unchanged.
+    For exmaple; 'server'. -->
+    <use-simple-hostname>*****</use-simple-hostname>
+
+    <!-- The logical business application name that this jvm node belongs to.
+    This is not the deployment name (ear/war/jar) on the application server.
+    For example, you may name a business application name 'ACME Portal' if you are monitoring
+    a portal application or 'ACME ECommerce' etc. If a business application of this name does not exist,
+    the Controller creates one automatically.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_APPLICATION_NAME' or
+    the system property '-Dappdynamics.agent.applicationName' -->
+    <application-name>**********************</application-name>
+
+    <!-- The logical business tier this node belongs to.
+    For example, a tier can be 'ACME Frontend' or 'ACME Backend Service' etc.
+    If your JVM / appserver startup script contains a system property that you want to use for the tier name,
+    for example, -Dserver.tier, you can refer to the system property similarly: ${server.tier}
+    You can use expressions like ${server.tier}_${some.property}.MyTier to define the tier name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_TIER_NAME' or
+    the system property '-Dappdynamics.agent.tierName' -->
+    <tier-name>****************</tier-name>
+
+    <!-- Unique name for this jvm node. The name must be unique within the business application. e.g. weblogicinstance23 or
+    hweb24. If your JVM / appserver startup script contains a system property that you want to use for the node name,
+    For example, -Dserver.name, you can refer to the system property similarly: ${server.name}.
+    The value for server.name will be used as AppDynamics node name.
+    You can use expressions like ${server.name}_${host.name}.MyNode to define the node name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_NODE_NAME' or
+    the system property '-Dappdynamics.agent.nodeName' -->
+    <node-name>****************</node-name>
+
+    <!-- The runtime directory for all runtime files (logs, transaction configuration) for agent nodes using this agent
+    installation. This optional property defaults to the agent-installation-directory . If you specify a different directory,
+    the agent writes all agent logs to agent-runtime-dir/logs/node-name. The agent writes transaction configuration to files to
+    agent-runtime-dir/conf/node-name. You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_BASE_DIR'
+    or the system property '-Dappdynamics.agent.runtime.dir' -->
+    <agent-runtime-dir></agent-runtime-dir>
+
+    <!-- Enable features required for AppDynamics Orchestration.
+    When true, the agent is able to resolve the AppDynamics Controller host and port
+    when the host machine where this agent resides is created through AppDynamics Orchestration.
+    If the host machine where this agent resides is NOT created through Orchestration then LEAVE
+    this flag set to 'false'. -->
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- Encrypt agent credentials.
+    Before you enable Use Encrypted Credentials, see the instructions on how to initialize the
+    Secure Credential Store:
+    https://docs.appdynamics.com/display/LATEST/Encrypt+Credentials+for+Agent+Configuration
+    When true, the agent to uses encrypted credentials from the secure credential store.
+    When true, you must supply the credential store file name and the obfuscated credential store password. -->
+    <use-encrypted-credentials></use-encrypted-credentials>
+    <!-- Full qualified path name for the SCS-KeyStore file name. -->
+    <credential-store-filename>*********************************************************************************************************</credential-store-filename>
+    <!-- Password for the 'Secure Credential Store' (SCS). This password must be obfuscated. -->
+    <credential-store-password>********</credential-store-password>
+
+    <!-- Enable agent-side mutual authentication with the Controller. Required when the Controller is configured for client authentication -->
+    <use-ssl-client-auth>false</use-ssl-client-auth>
+    <!-- Asymmetric keystore filename -->
+    <asymmetric-keystore-filename></asymmetric-keystore-filename>
+    <!-- Asymmetric keystore password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-keystore-password></asymmetric-keystore-password>
+    <!-- Asymmetric key password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-key-password></asymmetric-key-password>
+    <!-- Asymmetric key alias - Only set this alias if the keystore has multiple keys for deterministic key selection.-->
+    <asymmetric-key-alias></asymmetric-key-alias>
+
+    <!-- The account name for multi-tenant Controllers.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or
+    the system property '-Dappdynamics.agent.accountName' -->
+    <account-name>*************</account-name>
+    <!-- The account access key.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
+    the system property '-Dappdynamics.agent.accountAccessKey'
+    if 'use-encrypted-credentials' is set to true, use the encrypted the account access key. -->
+    <account-access-key>************</account-access-key>
+
+    <!-- Change to 'true' only under special circumstances when you want to override this node's application name
+    or tier name after this agent has been moved to a new application and/or tier in the Controller UI. When true,
+    the agent uses the application name and/or tier name from the configuration file.-->
+    <force-agent-registration>false</force-agent-registration>
+
+
+</controller-info>
+
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  200c5e37-02d6-4ec6-ac0d-8d38a3928fca  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] >>>>>>>>>>>> APM Agent global config controller-info.xml
+ content==>
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    <!-- For detailed information on the ways you can configure the Java Agent
+    and configuration order of precedence, see:
+    https://docs.appdynamics.com/display/LATEST/Administer+the+Java+Agent
+
+    The agent applies configurations in the following order of precedence.
+      1. Environment variables.
+      2. System properties passed on the command line.
+      3. Versioned agent properties.    /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/agent.properties
+      4. Global agent properties.       /$(Agent-Base-Install-Dir)/conf/agent.properties
+      5. Versioned configuration file.  /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/controller-info.xml
+      6. Global configuration file.     /$(Agent-Base-Install-Dir)/conf/controller-info.xml -->
+
+    <!-- The host name or the IP address of the AppDynamics Controller.
+    For example, ************ or myhost or myhost.abc.com
+    This is the same host that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_HOST_NAME' or
+    the system property '-Dappdynamics.controller.hostName' -->
+    <controller-host></controller-host>
+
+    <!-- The http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' below is set to true, you must
+    specify the HTTPS port of the Controller, otherwise specify the HTTP port. The Controller listens on port 8090 by default.
+    If you set 'controller-ssl-enabled' to true, the Controller listens on port 8181.
+    If you are using a saas Controller, the ssl port is 443
+    This is the same port that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_PORT' or
+    the system property '-Dappdynamics.controller.port' -->
+    <controller-port></controller-port>
+
+    <!-- Connect to the Controller using SSL(HTTPS). If you set this to true,
+    set the controller-port property to the HTTPS port for the Controller.
+    The agent only connects to the Controller using SSL when you enable this property. Otherwise, the
+    agent connects to the Controller using HTTP.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_SSL_ENABLED' or
+    the system property '-Dappdynamics.controller.ssl.enabled' -->
+    <controller-ssl-enabled></controller-ssl-enabled>
+
+    <!-- Truncate the hostname to remove the domain name.
+    For example, 'server.mydomain.com' becomes 'server'. Hostnames with no domain remain unchanged.
+    For exmaple; 'server'. -->
+    <use-simple-hostname>*****</use-simple-hostname>
+
+    <!-- The logical business application name that this jvm node belongs to.
+    This is not the deployment name (ear/war/jar) on the application server.
+    For example, you may name a business application name 'ACME Portal' if you are monitoring
+    a portal application or 'ACME ECommerce' etc. If a business application of this name does not exist,
+    the Controller creates one automatically.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_APPLICATION_NAME' or
+    the system property '-Dappdynamics.agent.applicationName' -->
+    <application-name></application-name>
+
+    <!-- The logical business tier this node belongs to.
+    For example, a tier can be 'ACME Frontend' or 'ACME Backend Service' etc.
+    If your JVM / appserver startup script contains a system property that you want to use for the tier name,
+    for example, -Dserver.tier, you can refer to the system property similarly: ${server.tier}
+    You can use expressions like ${server.tier}_${some.property}.MyTier to define the tier name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_TIER_NAME' or
+    the system property '-Dappdynamics.agent.tierName' -->
+    <tier-name></tier-name>
+
+    <!-- Unique name for this jvm node. The name must be unique within the business application. e.g. weblogicinstance23 or
+    hweb24. If your JVM / appserver startup script contains a system property that you want to use for the node name,
+    For example, -Dserver.name, you can refer to the system property similarly: ${server.name}.
+    The value for server.name will be used as AppDynamics node name.
+    You can use expressions like ${server.name}_${host.name}.MyNode to define the node name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_NODE_NAME' or
+    the system property '-Dappdynamics.agent.nodeName' -->
+    <node-name></node-name>
+
+    <!-- The runtime directory for all runtime files (logs, transaction configuration) for agent nodes using this agent
+    installation. This optional property defaults to the agent-installation-directory . If you specify a different directory,
+    the agent writes all agent logs to agent-runtime-dir/logs/node-name. The agent writes transaction configuration to files to
+    agent-runtime-dir/conf/node-name. You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_BASE_DIR'
+    or the system property '-Dappdynamics.agent.runtime.dir' -->
+    <agent-runtime-dir></agent-runtime-dir>
+
+    <!-- Enable features required for AppDynamics Orchestration.
+    When true, the agent is able to resolve the AppDynamics Controller host and port
+    when the host machine where this agent resides is created through AppDynamics Orchestration.
+    If the host machine where this agent resides is NOT created through Orchestration then LEAVE
+    this flag set to 'false'. -->
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- Encrypt agent credentials.
+    Before you enable Use Encrypted Credentials, see the instructions on how to initialize the
+    Secure Credential Store:
+    https://docs.appdynamics.com/display/LATEST/Encrypt+Credentials+for+Agent+Configuration
+    When true, the agent to uses encrypted credentials from the secure credential store.
+    When true, you must supply the credential store file name and the obfuscated credential store password. -->
+    <use-encrypted-credentials></use-encrypted-credentials>
+    <!-- Full qualified path name for the SCS-KeyStore file name. -->
+    <credential-store-filename></credential-store-filename>
+    <!-- Password for the 'Secure Credential Store' (SCS). This password must be obfuscated. -->
+    <credential-store-password></credential-store-password>
+    <!-- Format for the 'Secure Credential Store' (SCS).
+    The default format is JCEKS, but if a format like FIPS and a different security provider is chosen,
+    it should be ensured that all other certificates like cacerts also should be in this format -->
+    <credential-store-format></credential-store-format>
+    <!-- Enable agent-side mutual authentication with the Controller. Required when the Controller is configured for client authentication -->
+    <use-ssl-client-auth>false</use-ssl-client-auth>
+    <!-- Asymmetric keystore filename -->
+    <asymmetric-keystore-filename></asymmetric-keystore-filename>
+    <!-- Asymmetric keystore password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-keystore-password></asymmetric-keystore-password>
+    <!-- Asymmetric key password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-key-password></asymmetric-key-password>
+    <!-- Asymmetric key alias - Only set this alias if the keystore has multiple keys for deterministic key selection.-->
+    <asymmetric-key-alias></asymmetric-key-alias>
+
+    <!-- The account name for multi-tenant Controllers.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or
+    the system property '-Dappdynamics.agent.accountName' -->
+    <account-name></account-name>
+    <!-- The account access key.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
+    the system property '-Dappdynamics.agent.accountAccessKey'
+    if 'use-encrypted-credentials' is set to true, use the encrypted the account access key. -->
+    <account-access-key></account-access-key>
+
+    <!-- Change to 'true' only under special circumstances when you want to override this node's application name
+    or tier name after this agent has been moved to a new application and/or tier in the Controller UI. When true,
+    the agent uses the application name and/or tier name from the configuration file.-->
+    <force-agent-registration>false</force-agent-registration>
+
+
+</controller-info>
+
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  344b726e-67a3-4f90-8096-76289114052d  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent Location is /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.3.0.36936/javaagent.jar
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  4570535c-ff0d-42f8-a088-348908164ebe  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent installation directory: /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.3.0.36936
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  df369197-2a10-4e32-acff-c09237d1bf88  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Could not determine AppDynamics config Setting for (appdynamics.agent.conf.dir, APPDYNAMICS_AGENT_CONFIG_DIR, null)
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  6ed7dbd5-d3d1-4f2b-902e-4d2a4c040580  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Could not determine AppDynamics config Setting for (appdynamics.global.config.dir, APPDYNAMICS_GLOBAL_CONFIG_DIR, null)
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  af1488d4-5048-48ce-a4ae-906b20efdabb  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Install Dir is parent of a global config folder...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  4070f9a3-f347-4a51-bd7a-868656e617ad  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent global config found here: /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.3.0.36936/conf
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  b2bfcd66-5f65-4b2b-8cfd-fc59d8ced485  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] APM Agent version config found here: /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.3.0.36936/ver25.3.0.36936/conf
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  f382666b-cc99-4da6-a78a-e94797e6143a  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Property file APM Agent version config agent.properties does not exist here: /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.3.0.36936/ver25.3.0.36936/conf/agent.properties
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  82a3b9c7-6278-426d-a04d-c1656da873c5  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Property file APM Agent global config agent.properties does not exist here: /Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.3.0.36936/conf/agent.properties
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  9bc5f66c-f11f-4694-94c2-5a99aeea7c3c  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] >>>>>>>>>>>> APM Agent version config controller-info.xml
+ content==>
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    <!-- For detailed information on the ways you can configure the Java Agent
+    and configuration order of precedence, see:
+    https://docs.appdynamics.com/display/LATEST/Administer+the+Java+Agent
+
+    The agent applies configurations in the following order of precedence.
+      1. Environment variables.
+      2. System properties passed on the command line.
+      3. Versioned agent properties.    /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/agent.properties
+      4. Global agent properties.       /$(Agent-Base-Install-Dir)/conf/agent.properties
+      5. Versioned configuration file.  /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/controller-info.xml
+      6. Global configuration file.     /$(Agent-Base-Install-Dir)/conf/controller-info.xml -->
+
+    <!-- The host name or the IP address of the AppDynamics Controller.
+    For example, ************ or myhost or myhost.abc.com
+    This is the same host that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_HOST_NAME' or
+    the system property '-Dappdynamics.controller.hostName' -->
+    <controller-host>controllerces.saas.appdynamics.com</controller-host>
+
+    <!-- The http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' below is set to true, you must
+    specify the HTTPS port of the Controller, otherwise specify the HTTP port. The Controller listens on port 8090 by default.
+    If you set 'controller-ssl-enabled' to true, the Controller listens on port 8181.
+    If you are using a saas Controller, the ssl port is 443
+    This is the same port that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_PORT' or
+    the system property '-Dappdynamics.controller.port' -->
+    <controller-port>443</controller-port>
+
+    <!-- Connect to the Controller using SSL(HTTPS). If you set this to true,
+    set the controller-port property to the HTTPS port for the Controller.
+    The agent only connects to the Controller using SSL when you enable this property. Otherwise, the
+    agent connects to the Controller using HTTP.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_SSL_ENABLED' or
+    the system property '-Dappdynamics.controller.ssl.enabled' -->
+    <controller-ssl-enabled>true</controller-ssl-enabled>
+
+    <!-- Truncate the hostname to remove the domain name.
+    For example, 'server.mydomain.com' becomes 'server'. Hostnames with no domain remain unchanged.
+    For exmaple; 'server'. -->
+    <use-simple-hostname>*****</use-simple-hostname>
+
+    <!-- The logical business application name that this jvm node belongs to.
+    This is not the deployment name (ear/war/jar) on the application server.
+    For example, you may name a business application name 'ACME Portal' if you are monitoring
+    a portal application or 'ACME ECommerce' etc. If a business application of this name does not exist,
+    the Controller creates one automatically.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_APPLICATION_NAME' or
+    the system property '-Dappdynamics.agent.applicationName' -->
+    <application-name>***************************</application-name>
+
+    <!-- The logical business tier this node belongs to.
+    For example, a tier can be 'ACME Frontend' or 'ACME Backend Service' etc.
+    If your JVM / appserver startup script contains a system property that you want to use for the tier name,
+    for example, -Dserver.tier, you can refer to the system property similarly: ${server.tier}
+    You can use expressions like ${server.tier}_${some.property}.MyTier to define the tier name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_TIER_NAME' or
+    the system property '-Dappdynamics.agent.tierName' -->
+    <tier-name>****************</tier-name>
+
+    <!-- Unique name for this jvm node. The name must be unique within the business application. e.g. weblogicinstance23 or
+    hweb24. If your JVM / appserver startup script contains a system property that you want to use for the node name,
+    For example, -Dserver.name, you can refer to the system property similarly: ${server.name}.
+    The value for server.name will be used as AppDynamics node name.
+    You can use expressions like ${server.name}_${host.name}.MyNode to define the node name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_NODE_NAME' or
+    the system property '-Dappdynamics.agent.nodeName' -->
+    <node-name>****************</node-name>
+
+    <!-- The runtime directory for all runtime files (logs, transaction configuration) for agent nodes using this agent
+    installation. This optional property defaults to the agent-installation-directory . If you specify a different directory,
+    the agent writes all agent logs to agent-runtime-dir/logs/node-name. The agent writes transaction configuration to files to
+    agent-runtime-dir/conf/node-name. You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_BASE_DIR'
+    or the system property '-Dappdynamics.agent.runtime.dir' -->
+    <agent-runtime-dir></agent-runtime-dir>
+
+    <!-- Enable features required for AppDynamics Orchestration.
+    When true, the agent is able to resolve the AppDynamics Controller host and port
+    when the host machine where this agent resides is created through AppDynamics Orchestration.
+    If the host machine where this agent resides is NOT created through Orchestration then LEAVE
+    this flag set to 'false'. -->
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- Encrypt agent credentials.
+    Before you enable Use Encrypted Credentials, see the instructions on how to initialize the
+    Secure Credential Store:
+    https://docs.appdynamics.com/display/LATEST/Encrypt+Credentials+for+Agent+Configuration
+    When true, the agent to uses encrypted credentials from the secure credential store.
+    When true, you must supply the credential store file name and the obfuscated credential store password. -->
+    <use-encrypted-credentials></use-encrypted-credentials>
+    <!-- Full qualified path name for the SCS-KeyStore file name. -->
+    <credential-store-filename>*********************************************************************************************************</credential-store-filename>
+    <!-- Password for the 'Secure Credential Store' (SCS). This password must be obfuscated. -->
+    <credential-store-password>********</credential-store-password>
+
+    <!-- Enable agent-side mutual authentication with the Controller. Required when the Controller is configured for client authentication -->
+    <use-ssl-client-auth>false</use-ssl-client-auth>
+    <!-- Asymmetric keystore filename -->
+    <asymmetric-keystore-filename></asymmetric-keystore-filename>
+    <!-- Asymmetric keystore password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-keystore-password></asymmetric-keystore-password>
+    <!-- Asymmetric key password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-key-password></asymmetric-key-password>
+    <!-- Asymmetric key alias - Only set this alias if the keystore has multiple keys for deterministic key selection.-->
+    <asymmetric-key-alias></asymmetric-key-alias>
+
+    <!-- The account name for multi-tenant Controllers.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or
+    the system property '-Dappdynamics.agent.accountName' -->
+    <account-name>*************</account-name>
+    <!-- The account access key.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
+    the system property '-Dappdynamics.agent.accountAccessKey'
+    if 'use-encrypted-credentials' is set to true, use the encrypted the account access key. -->
+    <account-access-key>************</account-access-key>
+
+    <!-- Change to 'true' only under special circumstances when you want to override this node's application name
+    or tier name after this agent has been moved to a new application and/or tier in the Controller UI. When true,
+    the agent uses the application name and/or tier name from the configuration file.-->
+    <force-agent-registration>false</force-agent-registration>
+
+
+</controller-info>
+
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  cc35f4af-6f24-4d2f-afa5-659d0285bff5  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] >>>>>>>>>>>> APM Agent global config controller-info.xml
+ content==>
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    <!-- For detailed information on the ways you can configure the Java Agent
+    and configuration order of precedence, see:
+    https://docs.appdynamics.com/display/LATEST/Administer+the+Java+Agent
+
+    The agent applies configurations in the following order of precedence.
+      1. Environment variables.
+      2. System properties passed on the command line.
+      3. Versioned agent properties.    /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/agent.properties
+      4. Global agent properties.       /$(Agent-Base-Install-Dir)/conf/agent.properties
+      5. Versioned configuration file.  /$(Agent-Base-Install-Dir)/ver$(agent-version-no)/conf/controller-info.xml
+      6. Global configuration file.     /$(Agent-Base-Install-Dir)/conf/controller-info.xml -->
+
+    <!-- The host name or the IP address of the AppDynamics Controller.
+    For example, ************ or myhost or myhost.abc.com
+    This is the same host that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_HOST_NAME' or
+    the system property '-Dappdynamics.controller.hostName' -->
+    <controller-host></controller-host>
+
+    <!-- The http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' below is set to true, you must
+    specify the HTTPS port of the Controller, otherwise specify the HTTP port. The Controller listens on port 8090 by default.
+    If you set 'controller-ssl-enabled' to true, the Controller listens on port 8181.
+    If you are using a saas Controller, the ssl port is 443
+    This is the same port that you use to access the AppDynamics Controller user interface.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_PORT' or
+    the system property '-Dappdynamics.controller.port' -->
+    <controller-port></controller-port>
+
+    <!-- Connect to the Controller using SSL(HTTPS). If you set this to true,
+    set the controller-port property to the HTTPS port for the Controller.
+    The agent only connects to the Controller using SSL when you enable this property. Otherwise, the
+    agent connects to the Controller using HTTP.
+    You can override this configuration with an environment variable 'APPDYNAMICS_CONTROLLER_SSL_ENABLED' or
+    the system property '-Dappdynamics.controller.ssl.enabled' -->
+    <controller-ssl-enabled></controller-ssl-enabled>
+
+    <!-- Truncate the hostname to remove the domain name.
+    For example, 'server.mydomain.com' becomes 'server'. Hostnames with no domain remain unchanged.
+    For exmaple; 'server'. -->
+    <use-simple-hostname>*****</use-simple-hostname>
+
+    <!-- The logical business application name that this jvm node belongs to.
+    This is not the deployment name (ear/war/jar) on the application server.
+    For example, you may name a business application name 'ACME Portal' if you are monitoring
+    a portal application or 'ACME ECommerce' etc. If a business application of this name does not exist,
+    the Controller creates one automatically.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_APPLICATION_NAME' or
+    the system property '-Dappdynamics.agent.applicationName' -->
+    <application-name></application-name>
+
+    <!-- The logical business tier this node belongs to.
+    For example, a tier can be 'ACME Frontend' or 'ACME Backend Service' etc.
+    If your JVM / appserver startup script contains a system property that you want to use for the tier name,
+    for example, -Dserver.tier, you can refer to the system property similarly: ${server.tier}
+    You can use expressions like ${server.tier}_${some.property}.MyTier to define the tier name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_TIER_NAME' or
+    the system property '-Dappdynamics.agent.tierName' -->
+    <tier-name></tier-name>
+
+    <!-- Unique name for this jvm node. The name must be unique within the business application. e.g. weblogicinstance23 or
+    hweb24. If your JVM / appserver startup script contains a system property that you want to use for the node name,
+    For example, -Dserver.name, you can refer to the system property similarly: ${server.name}.
+    The value for server.name will be used as AppDynamics node name.
+    You can use expressions like ${server.name}_${host.name}.MyNode to define the node name.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_NODE_NAME' or
+    the system property '-Dappdynamics.agent.nodeName' -->
+    <node-name></node-name>
+
+    <!-- The runtime directory for all runtime files (logs, transaction configuration) for agent nodes using this agent
+    installation. This optional property defaults to the agent-installation-directory . If you specify a different directory,
+    the agent writes all agent logs to agent-runtime-dir/logs/node-name. The agent writes transaction configuration to files to
+    agent-runtime-dir/conf/node-name. You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_BASE_DIR'
+    or the system property '-Dappdynamics.agent.runtime.dir' -->
+    <agent-runtime-dir></agent-runtime-dir>
+
+    <!-- Enable features required for AppDynamics Orchestration.
+    When true, the agent is able to resolve the AppDynamics Controller host and port
+    when the host machine where this agent resides is created through AppDynamics Orchestration.
+    If the host machine where this agent resides is NOT created through Orchestration then LEAVE
+    this flag set to 'false'. -->
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- Encrypt agent credentials.
+    Before you enable Use Encrypted Credentials, see the instructions on how to initialize the
+    Secure Credential Store:
+    https://docs.appdynamics.com/display/LATEST/Encrypt+Credentials+for+Agent+Configuration
+    When true, the agent to uses encrypted credentials from the secure credential store.
+    When true, you must supply the credential store file name and the obfuscated credential store password. -->
+    <use-encrypted-credentials></use-encrypted-credentials>
+    <!-- Full qualified path name for the SCS-KeyStore file name. -->
+    <credential-store-filename></credential-store-filename>
+    <!-- Password for the 'Secure Credential Store' (SCS). This password must be obfuscated. -->
+    <credential-store-password></credential-store-password>
+    <!-- Format for the 'Secure Credential Store' (SCS).
+    The default format is JCEKS, but if a format like FIPS and a different security provider is chosen,
+    it should be ensured that all other certificates like cacerts also should be in this format -->
+    <credential-store-format></credential-store-format>
+    <!-- Enable agent-side mutual authentication with the Controller. Required when the Controller is configured for client authentication -->
+    <use-ssl-client-auth>false</use-ssl-client-auth>
+    <!-- Asymmetric keystore filename -->
+    <asymmetric-keystore-filename></asymmetric-keystore-filename>
+    <!-- Asymmetric keystore password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-keystore-password></asymmetric-keystore-password>
+    <!-- Asymmetric key password - If SCS is enabled, use the encrypted password. -->
+    <asymmetric-key-password></asymmetric-key-password>
+    <!-- Asymmetric key alias - Only set this alias if the keystore has multiple keys for deterministic key selection.-->
+    <asymmetric-key-alias></asymmetric-key-alias>
+
+    <!-- The account name for multi-tenant Controllers.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or
+    the system property '-Dappdynamics.agent.accountName' -->
+    <account-name></account-name>
+    <!-- The account access key.
+    You can override this configuration with an environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
+    the system property '-Dappdynamics.agent.accountAccessKey'
+    if 'use-encrypted-credentials' is set to true, use the encrypted the account access key. -->
+    <account-access-key></account-access-key>
+
+    <!-- Change to 'true' only under special circumstances when you want to override this node's application name
+    or tier name after this agent has been moved to a new application and/or tier in the Controller UI. When true,
+    the agent uses the application name and/or tier name from the configuration file.-->
+    <force-agent-registration>false</force-agent-registration>
+
+
+</controller-info>
+
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  f16d1ce2-2694-42c3-873d-f5087d120081  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Got AppDynamics config Setting from xml tag: node-name=Nutan-Wildfly-35
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  da903d9d-5d4a-4607-b10d-c66321454c24  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Continuing Premain in the JVM Main Thread: Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread
+ERROR  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  a72f9321-1cc6-4f74-9d7b-2828b56a05fd  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] ErrorOccurred==> Error in premain method: java.lang.IllegalStateException: Shutdown in progress
+
+java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.add(ApplicationShutdownHooks.java:66)
+	at java.base/java.lang.Runtime.addShutdownHook(Runtime.java:216)
+	at com.cisco.mtagent.boot.Controller.addShutdownHook(Controller.java:983)
+	at com.cisco.mtagent.boot.Controller.setUnitTestingAndShutdownHook(Controller.java:668)
+	at com.cisco.mtagent.entry.MTAgent._continuePremain(MTAgent.java:315)
+	at com.cisco.mtagent.entry.MTAgent.continuePremain(MTAgent.java:238)
+	at com.cisco.mtagent.entry.MTAgent.premain(MTAgent.java:160)
+	at com.cisco.mtagent.entry.MTAgent.dynamicServiceAndOSSExtensionPremain(MTAgent.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.cisco.mtagent.adaptors.AgentStartupHookAdaptor.run(AgentStartupHookAdaptor.java:448)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  44c84879-61ef-43ce-a2aa-511ee9b45a77  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Starting Full Agent Shutdown...
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  3ba7a1c7-609a-451e-9fbb-2a0a0ad3c783  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Current Agent Version is: null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  8fdc7895-3d88-4725-a378-ac25c14afda5  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Time spent in premain was 0 seconds
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  7e5be55f-5012-44ba-a5fa-23b8fd85264b  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9-](\d+\.\d+\.\d+\.\d+)[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  7d70e2b7-2ad9-4087-95ef-f46c85df1b50  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\w+@\w+\.\w+)[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  b9b6bb3c-48ec-4ee3-9021-bd5639f29c32  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{3}-\d{2}-\d{4})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  362dc7c9-047b-4cc4-bf6a-a9b4c9a8309a  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{3}-\d{3}-\d{4})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  87930078-b184-4e2a-9b68-ac53b931d777  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{9})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  28814ff7-3eca-4ecd-9b6b-6e2970d0feee  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultNumbersMaskingGroup, pattern: [^a-zA-Z0-9](\d{10})[^a-zA-Z0-9], agent-masking: true, contains: null
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  05b74ed0-277f-4cfb-acca-1791d133b8fb  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*pass.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  5edcd6b8-3e23-4b4e-904c-c10e7672e166  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*pass.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  857138a7-312d-4288-a4b4-a00f3df1865b  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*.pwd.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  3e26564a-9d7f-4d3a-83cc-217b4c53bb80  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*.pwd.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  aa96287d-4ebd-4136-b7ad-5e85b9bc398b  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*key.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  ec9ccf50-d1ec-412b-882d-683030f8112d  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*key.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  ef31b2d1-f8d4-48b6-8d85-d5766b258f7b  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*token.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  4a2f1ca1-2f58-42cb-a74d-1b45cdf2e16e  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*token.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  b8d358b3-109d-476f-ad54-0a1e77101c9d  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*name.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  589fe315-b447-43c2-80e5-184af175d4f1  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*name.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  5ca26274-48e0-44d5-87d9-19a99f2d8545  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*address.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  31272148-44c0-46d0-a05e-b1a51a95417b  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*address.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  e83bb2b3-d92d-4153-af43-a2ae3424f8f2  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*user.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  0b3fd5f4-6a78-4a9b-8c43-86254610ce6e  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*user.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  3cd65b12-7be4-4615-9a01-20d2f335cd98  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultPropertiesMaskingGroup, pattern: (?i)[^,\s]*phone.*?[=]([^,;&"\s]*), agent-masking: true, contains: =
+INFO  2025-08-28T23:03:41+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  488bc9cf-c581-487d-be1e-ec7eaa6b1daf  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now adding mask from group Default-Agent-Masking:DefaultXMLMaskingGroup, pattern: (?i)<.*phone.*>(.*)</, agent-masking: true, contains: <
+INFO  2025-08-28T23:03:42+05:30  NUPAWAR-M-12UH  MultiTenantAgent  95849  91b5cb99-7594-4d35-8f0e-076b1f574eb1  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Done flushing 51 premain bootstrap logging messages...
+INFO  2025-08-28T23:03:42+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  46f74248-4d54-45d8-982a-babe26438230  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Now moving Agent Startup Adaptor Log (Dynamic Service) from /Users/nupawar/eclipse-workspace/BumbleBee/java-agent/ver25.6.0.37159/external-services/argentoDynamicService/argentoDynamicService_08-28-2025-23.03.41.log to /Users/nupawar/eclipse-workspace/BumbleBee/wildfly-35.0.1.Final/bin/multi-tenant-premain-shutdown/argentoDynamicService_08-28-2025-23.03.41.log
+INFO  2025-08-28T23:03:42+05:30  NUPAWAR-M-12UH  SecureAppDynamicService  95849  4d3d996b-3259-4656-8fed-501e7d3e0bd1  [Thread=Cisco-Multi-Tenant-Agent-Startup-Hook-Adapter-Thread] Premain class com.cisco.mtagent.entry.MTAgent invoked...agent should be running...
