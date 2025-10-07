@@ -328,9 +328,7 @@ echo "  JAVA_OPTS: $JAVA_OPTS"
 echo ""
 echo "========================================================================="
 echo ""
-#export JAVA_OPTS="$JAVA_OPTS -javaagent:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.6.0.37159/ver25.6.0.37159/javaagent.jar"
 
-export JAVA_OPTS="$JAVA_OPTS -javaagent:/Users/nupawar/eclipse-workspace/httpsessionlogin/wildfly-35.0.1.Final/AppServerAgent-1.8-25.3.0.36936/javaagent.jar"
 while true; do
    if [ "x$LAUNCH_JBOSS_IN_BACKGROUND" = "x" ]; then
       # Execute the JVM in the foreground
