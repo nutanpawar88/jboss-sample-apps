@@ -1,0 +1,72 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
+    ":preserveSemverRanges",
+    "helpers:pinGitHubActionDigests"
+  ],
+
+  "timezone": "America/New_York",
+  "prHourlyLimit": 5,
+  "prConcurrentLimit": 10,
+  "labels": ["dependencies", "renovate"],
+  "dependencyDashboard": true,
+
+  "schedule": ["after 6pm every weekday", "every weekend"],
+
+  "enabledManagers": [
+    "github-actions",
+    "dockerfile",
+    "maven",
+    "gradle"
+  ],
+
+  "rangeStrategy": "bump",
+
+  "packageRules": [
+    {
+      "description": "Automerge safe patch updates",
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": true
+    },
+    {
+      "description": "Security updates ASAP",
+      "matchCategories": ["security"],
+      "automerge": true,
+      "schedule": ["at any time"],
+      "labels": ["security"]
+    },
+    {
+      "description": "Group Spring/Jakarta EE testing libs (if Maven/Gradle added later)",
+      "groupName": "test-libs",
+      "matchManagers": ["maven", "gradle"],
+      "matchPackagePatterns": [
+        "^org\\.junit",
+        "^org\\.mockito",
+        "^org\\.assertj",
+        "^org\\.hamcrest"
+      ]
+    },
+    {
+      "description": "Prefer grouped upgrades for Jakarta EE / WildFly BOMs (if present)",
+      "groupName": "jakarta-ee-boms",
+      "matchManagers": ["maven", "gradle"],
+      "matchPackagePatterns": [
+        "^org\\.wildfly",
+        "^io\\.smallrye",
+        "^jakarta\\."
+      ]
+    },
+    {
+      "description": "Docker base images (WildFly, JBoss) strategy",
+      "matchManagers": ["dockerfile"],
+      "matchDatasources": ["docker"],
+      "matchPackagePatterns": [
+        "^jboss/wildfly$",
+        "^quay\\.io/wildfly/wildfly$",
+        "^registry\\.access\\.redha
